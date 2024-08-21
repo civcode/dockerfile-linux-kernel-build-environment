@@ -1,5 +1,7 @@
 # Dockerfile for linux kernel build environment
 
+Includes all the dependencies required for building the Linux kernel.
+
 ## Docker instructions
 
 ### Build image
