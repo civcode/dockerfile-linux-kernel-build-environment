@@ -4,6 +4,8 @@ RUN apt-get update && apt-get install -y \
     bc \
     bison \
     build-essential \
+    cmake \
+    cmake-curses-gui \
     cpio \
     crossbuild-essential-arm64 \
     crossbuild-essential-armhf \
