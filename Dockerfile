@@ -1,4 +1,8 @@
 FROM ubuntu:22.04
+
+# Set environment variable to disable user interaction
+ENV DEBIAN_FRONTEND=noninteractive
+
 # Install packages
 RUN apt-get update && apt-get install -y \
     bc \
