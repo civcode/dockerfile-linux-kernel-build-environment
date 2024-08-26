@@ -2,6 +2,10 @@
 
 Includes all the dependencies required for building the Linux kernel.
 
+## Branches
+- master: build kernel without ZFS support
+- zfs-build: build kernel with ZFS support (contains additional packages) 
+
 ## Docker instructions
 
 ### Build image
